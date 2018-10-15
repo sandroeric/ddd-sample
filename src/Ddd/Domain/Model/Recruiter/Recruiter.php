@@ -18,7 +18,7 @@ class Recruiter {
         $this->email = $email;
         $this->password = $password;
     }
-
+    
     public function id()
     {
         return $this->recruiter_id;

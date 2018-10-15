@@ -8,11 +8,11 @@ namespace Ddd\Domain\Model\Recruiter;
 interface RecruiterRepository {
 
     /**
-     * @param RecruiterId $userId
+     * @param RecruiterId $recruiterId
      *
      * @return Recruiter
      */
-    public function ofId(RecruiterId $userId);
+    public function ofId(RecruiterId $recruiterId);
 
     /**
      * @param string $username

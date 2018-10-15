@@ -49,8 +49,8 @@ class SignUpRecruiterService implements ApplicationService
         );
 
         $this->recruiterRepository->add($recruiter);
-        $this->recruiterDataTransformer->write($recruiter);
 
+        $this->recruiterDataTransformer->write($recruiter);
         return $this->recruiterDataTransformer->read();
     }
 }
